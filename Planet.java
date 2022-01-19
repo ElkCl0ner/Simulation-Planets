@@ -72,11 +72,11 @@ public class Planet extends Thread {
 	}
 	
 	/**
-	 * Draw Method
+	 * Draw Method: draws the planet
 	 */
 	public void draw() {
-		int X = (int) (x / scale + width / 2 - radius / 2);
-		int Y = (int) (y / scale + height / 2 - radius / 2);
+		int X = (int) (width / 2 + x / scale - radius / 2);
+		int Y = (int) (height / 2 - y / scale - radius / 2);
 		shape.setLocation(X, Y);
 	}
 	
