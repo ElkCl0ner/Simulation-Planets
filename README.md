@@ -3,7 +3,7 @@
 A fun little simulation of planet orbits.
 Inspired by the three body problem.
 
-Java program using the external library acm.jar as graphics library.
+Java program using the external library acm.jar for graphics.
 
 Notes:
  - No issues encountered during testing.
